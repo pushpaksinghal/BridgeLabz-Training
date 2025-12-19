@@ -2,6 +2,9 @@ using System;
 
 class TotalPriceOfItem{
     static void Main(String[] args){
+        //given the unit prince and the quantity 
+        ///finding  the total price
+        //taking input from user 
         double unitPrice = Convert.ToDouble(Console.ReadLine());
         int quantity = Convert.ToInt32(Console.ReadLine());
 

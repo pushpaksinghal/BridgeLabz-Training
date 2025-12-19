@@ -2,6 +2,7 @@ using System;
 
 class ProfitAndLoss{
     static void Main(String[] args){
+        // finding out the profit off of teh sell made
         int costPrice =129;
         int sellingPrice = 191;
         int profit = sellingPrice-costPrice;
