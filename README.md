@@ -106,7 +106,18 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 -  csharp Data types
 - Revision of Architecture
 
+### 🔹 Code Practice & Pushing in Github
+- Practiced basic **C# programming problems**
+- Pushed **core C# practice code** to GitHub repository
+
 ## 🎯 Learning Outcome
 - Gained experience in operators and datatypes
 - clear revion of MSIL and CLR
 - learned insites in csharp
+- more proficient in csharp syntax
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming problems
+- Explore object-oriented concepts in C#
+- Learn more about .NET libraries and real-world use cases
