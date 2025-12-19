@@ -95,3 +95,18 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - Learn more about .NET libraries and real-world use cases
 
 ---
+
+##  🗓️ Day-4 | C# Basic and runtime operators
+
+**Date:** 19 December 2025   
+
+
+### 🔹 Topics Covered
+-  csharp Opeartors
+-  csharp Data types
+- Revision of Architecture
+
+## 🎯 Learning Outcome
+- Gained experience in operators and datatypes
+- clear revion of MSIL and CLR
+- learned insites in csharp
