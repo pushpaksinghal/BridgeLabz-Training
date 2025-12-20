@@ -121,3 +121,30 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - Continue practicing C# programming problems
 - Explore object-oriented concepts in C#
 - Learn more about .NET libraries and real-world use cases
+
+
+---
+
+##  🗓️ Day-5 | C# Basic and Access Modifiers
+
+**Date:** 20 December 2025   
+
+
+### 🔹 Topics Covered
+- Access Modifiers
+  - public , private, internal,protected
+  -protected internal , private protected
+
+### 🔹 Code Practice & Pushing in Github
+- created base exmaple **C# Access Modifier**
+- Pushed **core C# Access modifier Example** to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in Access Modifiers
+- more proficient in csharp syntax
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming problems
+- Explore object-oriented concepts in C#
+- Learn more about .NET libraries and real-world use cases
