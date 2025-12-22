@@ -148,3 +148,29 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - Continue practicing C# programming problems
 - Explore object-oriented concepts in C#
 - Learn more about .NET libraries and real-world use cases
+
+---
+
+##  🗓️ Day-6 | C# Basic and Control Flow
+
+**Date:** 22 December 2025   
+
+
+### 🔹 Topics Covered
+- Control Flow
+  - if ,else if, else , switch case
+  - for , while, do while, for each, brek, continue ,nested loop
+
+### 🔹 Code Practice & Pushing in Github
+- created base folder **C# contorol flow**
+- Pushed **core C# level 1 and 2 code practice** to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in control flow
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore String and Arrays concepts in C#
+- Learn more about .NET libraries and real-world projects
