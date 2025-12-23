@@ -174,3 +174,33 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - Continue practicing C# programming concepts
 - Explore String and Arrays concepts in C#
 - Learn more about .NET libraries and real-world projects
+
+--- 
+
+##  🗓️ Day-7 | C# Basic and Control Flow and Arrays
+
+**Date:** 23 December 2025   
+
+
+### 🔹 Topics Covered
+- Control Flow
+  - if ,else if, else , switch case
+  - for , while, do while, for each, brek, continue ,nested loop
+- Arrays 
+  - differnt ways to create an array
+  - how to createa two D array in csharp
+  - exit(0) envirnment method 
+
+### 🔹 Code Practice & Pushing in Github
+- created base folder **C# contorol flow**
+- Pushed **core C# level 3 of control flow  and level 1 and 2  of arrays code practice** to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in control flow and arrays 
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore methods concepts in C#
+- Learn more about .NET libraries and real-world projects
