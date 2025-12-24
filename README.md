@@ -204,3 +204,34 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - Continue practicing C# programming concepts
 - Explore methods concepts in C#
 - Learn more about .NET libraries and real-world projects
+
+--- 
+
+##  🗓️ Day-7 | C# Basic, Arrays and Methods
+
+**Date:** 24 December 2025   
+
+
+### 🔹 Topics Covered
+- Arrays 
+  - differnt ways to create an array
+  - how to createa two D array in csharp
+  - exit(0) envirnment method 
+- Methods
+  - differnt ways to create methods  with  or with out static 
+  - crating a object to call emthods
+  - recursion methods
+
+### 🔹 Code Practice & Pushing in Github
+- created base folder **C# contorol flow**
+- Pushed **core C# level 3 of Arrays  and level 1 and 2  of methods code practice** to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in methods and arrays 
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore methods  concepts in C#
+- Learn more about .NET libraries and real-world projects
