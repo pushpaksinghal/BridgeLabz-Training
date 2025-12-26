@@ -207,7 +207,7 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 
 --- 
 
-##  🗓️ Day-7 | C# Basic, Arrays and Methods
+##  🗓️ Day-8 | C# Basic, Arrays and Methods
 
 **Date:** 24 December 2025   
 
