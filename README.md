@@ -162,7 +162,7 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
   - for , while, do while, for each, brek, continue ,nested loop
 
 ### 🔹 Code Practice & Pushing in Github
-- created base folder **C# contorol flow**
+- updated base folder **C# contorol flow**
 - Pushed **core C# level 1 and 2 code practice** to GitHub repository
 
 ## 🎯 Learning Outcome
@@ -192,7 +192,7 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
   - exit(0) envirnment method 
 
 ### 🔹 Code Practice & Pushing in Github
-- created base folder **C# contorol flow**
+- updated base folder **C# contorol flow**
 - Pushed **core C# level 3 of control flow  and level 1 and 2  of arrays code practice** to GitHub repository
 
 ## 🎯 Learning Outcome
@@ -223,7 +223,7 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
   - recursion methods
 
 ### 🔹 Code Practice & Pushing in Github
-- created base folder **C# contorol flow**
+- updated base folder **C# contorol flow**
 - Pushed **core C# level 3 of Arrays  and level 1 and 2  of methods code practice** to GitHub repository
 
 ## 🎯 Learning Outcome
@@ -234,4 +234,36 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 ## 🚀 Next Steps
 - Continue practicing C# programming concepts
 - Explore methods  concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--- 
+
+##  🗓️ Day-9 | C# Basic, String and Built in functions 
+
+**Date:** 26 December 2025   
+
+
+### 🔹 Topics Covered
+- Strings 
+  - differnt ways to create an String
+  - hfunction of string 
+  - substring, charat and more methods
+  - way to use the string in differnt ways
+- built in functions
+  - functions like random , maths and more
+  - date time and its features
+  - practice questions 
+
+### 🔹 Code Practice & Pushing in Github
+- updated base folder **C# contorol flow**
+- Pushed **core C# level 1 String and string handling  and lextras of built in functions* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in Strings and functions 
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
 - Learn more about .NET libraries and real-world projects
