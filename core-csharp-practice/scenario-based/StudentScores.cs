@@ -26,16 +26,26 @@ namespace BridgelabzTraining.senario_based
             double[] scores = new double[n];
             for (int j = 0; j < n; j++)
             {
-                double temp = Convert.ToDouble(Console.ReadLine());
-                if (!(temp < 0))
+                double a = 0;
+                try
                 {
-                    scores[j] = temp;
+                    String t = Console.ReadLine();
+                    a =Convert.ToDouble(t);   
+                }
+                catch(FormatException e)
+                {
+                    Console.WriteLine(e.GetType().Name);
+                    break;
+                }
+                if (!(a < 0))
+                {
+                    scores[j] = a;
                 }
                 else
                 {
                     Console.Error.WriteLine("invalid input");
+                    break;  
                 }
-
             }
             return scores;
         }
