@@ -6,15 +6,16 @@ using System.Threading.Tasks;
 
 namespace BridgelabzTraining.senario_based
 {
-    
+
     internal class SnakeAndLadder
     {
         static Random r = new Random();
-        static int[,] ladder = { { 4, 10 }, { 9, 22 }, { 20, 17 }, { 21, 21 }, { 28, 56 }, { 36, 21 }, { 51, 22 }, { 71, 11 }, { 80,19} };
-        static int[,] snakes = { {49,38 }, {61,42 }, {86,62 }, {47,21 }, {58,17 }, {93,20 }, {95,020 }, {98,78 }};
+        static int[,] ladder = { { 4, 10 }, { 9, 22 }, { 20, 17 }, { 21, 21 }, { 28, 56 }, { 36, 21 }, { 51, 22 }, { 71, 11 }, { 80, 19 } };
+        static int[,] snakes = { { 49, 38 }, { 61, 42 }, { 86, 62 }, { 47, 21 }, { 58, 17 }, { 93, 20 }, { 95, 020 }, { 98, 78 } };
         static void Main(String[] args)
         {
-            int n=Convert.ToInt32(Console.ReadLine());
+            SnakeAndLadder obj = new SnakeAndLadder();
+            int n = Convert.ToInt32(Console.ReadLine());
 
             if (n < 2)
             {
@@ -40,9 +41,9 @@ namespace BridgelabzTraining.senario_based
                     {
                         case 1:
                             int x = Roll();
-                            player[i] = MovePlayer(player[i], x);
+                            player[i] = obj.MovePlayer(player[i], x);
                             Console.WriteLine("player " + (i + 1) + " rolled a " + x + " and moved to " + player[i]);
-                            int[] newposition = SnakeOrLadder(player[i]);
+                            int[] newposition = obj.SnakeOrLadder(player[i]);
                             if (newposition[1] == 1)
                             {
                                 player[i] = newposition[0];
@@ -64,20 +65,20 @@ namespace BridgelabzTraining.senario_based
                             continue;
 
                         case 2:
-                            Console.WriteLine("player "+(i + 1) + "has left the game");
+                            Console.WriteLine("player " + (i + 1) + "has left the game");
                             break;
                         default:
                             Console.WriteLine("invalid choise");
                             break;
                     }
-                    
-                    if(choice == 2)
+
+                    if (choice == 2)
                     {
                         Console.WriteLine("Game Over");
                         break;
                     }
-                    
-                    else if (CheckWin(player[i]))
+
+                    else if (obj.CheckWin(player[i]))
                     {
 
                         Console.WriteLine("the player how Won is player " + (i + 1));
@@ -85,16 +86,16 @@ namespace BridgelabzTraining.senario_based
                     }
                 }
             }
-            
+
         }
 
         static int Roll()
         {
             return r.Next(1, 7);
         }
-        static int MovePlayer(int inital, int rolled)
+        int MovePlayer(int inital, int rolled)
         {
-            if((inital + rolled) <= 100)
+            if ((inital + rolled) <= 100)
             {
                 return inital + rolled;
             }
@@ -104,16 +105,16 @@ namespace BridgelabzTraining.senario_based
             }
         }
 
-        static int[] SnakeOrLadder(int position)
+        int[] SnakeOrLadder(int position)
         {
             int newPosition = position;
             int a = 0;
-            for(int i = 0; i < 9; i++)
+            for (int i = 0; i < 9; i++)
             {
                 if (position == ladder[i, 0])
                 {
                     a = 1;
-                    newPosition= position + ladder[i, 1];
+                    newPosition = position + ladder[i, 1];
                 }
             }
             for (int i = 0; i < 8; i++)
@@ -121,13 +122,13 @@ namespace BridgelabzTraining.senario_based
                 if (position == snakes[i, 0])
                 {
                     a = 2;
-                    newPosition= position - snakes[i, 1];
+                    newPosition = position - snakes[i, 1];
                 }
             }
 
-            return new int[] {newPosition,a};
+            return new int[] { newPosition, a };
         }
-        static bool CheckWin(int position)
+        bool CheckWin(int position)
         {
             if (position == 100)
             {
