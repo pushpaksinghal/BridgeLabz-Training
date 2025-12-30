@@ -8,12 +8,15 @@ namespace BridgelabzTraining.senario_based
 {
     internal class LibraryManagementSystem
     {
-        
+        //making hte passward static and private
         private static string passward = "Nowiamdeath";
         static void Main(String[]args)
         {
+            // amingthe obj for the class 
             LibraryManagementSystem obj = new LibraryManagementSystem();
+            // taking input of all the books
             string[,] books = obj.InputBook();
+            // check the auth if the user is admin or not
             obj.CheckAuth(books);
         }
         void CheckAuth(string[,]books)
@@ -30,6 +33,7 @@ namespace BridgelabzTraining.senario_based
                 switch (auth)
                 {
                     case 1:
+                        // if admin give pass and check it 
                         string userEntry = Console.ReadLine();
                         if (Passward(userEntry))
                         {
@@ -37,11 +41,13 @@ namespace BridgelabzTraining.senario_based
                             return;
                         }
                         else
+                        // end program
                         {
                             Console.WriteLine("You do not have admin status");
                             break;
                         }
                     case 2:
+                        // show the option for user
                         DisplayUser(books, books.GetLength(0));
                         break;
                     case 3:
@@ -57,6 +63,7 @@ namespace BridgelabzTraining.senario_based
         private bool Passward(string userEntry)
         {
             
+            // passward checker
             if (string.Equals(userEntry, passward))
             {
                 return true;
@@ -68,6 +75,7 @@ namespace BridgelabzTraining.senario_based
         }
         string[,] InputBook()
         {
+            //takes the input for all the books wiht there title and author andd cat and status
             Console.WriteLine("renter the number of book to add in a library");
             int n = Convert.ToInt32(Console.ReadLine());
             string[,] books = new string[n, 4]; 
@@ -83,6 +91,7 @@ namespace BridgelabzTraining.senario_based
         }
         void SeeBooks(String[,] books, int n)
         {
+            // user or admin can see all the books
             for (int i = 0; i < n; i++)
             {
                 Console.WriteLine(books[i, 0]);
@@ -91,6 +100,7 @@ namespace BridgelabzTraining.senario_based
 
         int Searching(string[,]books, int n)
         {
+            // can search fora  book and check if that book is checked out or not
             string userSearch = Console.ReadLine();
             int temp =-1 ;
             userSearch = userSearch.Trim().ToLower();
@@ -111,6 +121,7 @@ namespace BridgelabzTraining.senario_based
 
         void RentingBook(string[,]books,int n,int index)
         {
+            // user can rent a book
             if (books[index, 3].Equals("check out", StringComparison.OrdinalIgnoreCase))
             {
                 books[index, 3] = "checked out";
@@ -121,10 +132,12 @@ namespace BridgelabzTraining.senario_based
 
         private void Changepassward()
         {
+            // admin can change the passward
             passward= Console.ReadLine();
         }
         private string[,] ResizeArray(string[,] oldArray, int newRows, int cols)
         {
+            // if add ing or removeing a book we can resize the array
             string[,] newArray = new string[newRows, cols];
 
             int oldRows = oldArray.GetLength(0);
@@ -142,6 +155,7 @@ namespace BridgelabzTraining.senario_based
 
         private string[,] AddBook(String[,] books)
         {
+            //can add books
             int rows = books.GetLength(0);
             int cols = books.GetLength(1);
             books = ResizeArray(books, rows+1,cols);
@@ -156,6 +170,7 @@ namespace BridgelabzTraining.senario_based
 
         private string[,] RemoveBook(String[,] books,int index)
         {
+            // admin can remove the book
             int rows = books.GetLength(0);
             int cols = books.GetLength(1);
             if (index < 0 || index >= rows)
@@ -175,6 +190,7 @@ namespace BridgelabzTraining.senario_based
 
         void DisplayUser(string[,] books, int n)
         {
+            // for user
             while (true)
             {
                 Console.WriteLine("WELCOME USER");
@@ -215,6 +231,7 @@ namespace BridgelabzTraining.senario_based
 
         void DisplayAdmin(String[,]books ,int n)
         {
+            // for admin
             while (true)
             {
                 Console.WriteLine("WELCOME ADMIN");
