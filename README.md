@@ -267,3 +267,30 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - Continue practicing C# programming concepts
 - Explore concepts in C#
 - Learn more about .NET libraries and real-world projects
+
+--- 
+
+##  🗓️ Day-10 | C# Basic,senario based questions
+
+**Date:** 29 December 2025   
+
+
+### 🔹 Topics Covered
+- senario based question on string 
+- senario based question on arrays and methods
+- using denuggers to solve the nugs
+
+### 🔹 Code Practice & Pushing in Github
+- updated base folder **C# contorol flow**
+- Pushed **core C#  senario based problems * to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in Strings and functions  and array
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
