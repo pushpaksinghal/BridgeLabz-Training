@@ -270,15 +270,16 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 
 --- 
 
-##  🗓️ Day-10 | C# Basic,senario based questions
+##  🗓️ Day-10 | C# classes and objects,senario based questions
 
 **Date:** 29 December 2025   
 
 
 ### 🔹 Topics Covered
 - senario based question on string 
+- quesiton on class and object implemantation
 - senario based question on arrays and methods
-- using denuggers to solve the nugs
+- using debuggers to solve the bugs
 
 ### 🔹 Code Practice & Pushing in Github
 - updated base folder **C# contorol flow**
@@ -298,15 +299,18 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 
 --- 
 
-##  🗓️ Day-11 | C# Basic,senario based questions
+##  🗓️ Day-11 | C# Consturctor, variables and access modifiers,senario based questions
 
 **Date:** 30 December 2025   
 
 
 ### 🔹 Topics Covered
 - senario based question on Library management system and Edu Quiz 
+- use of this keyword
+- best practice to use access modifiers
+- questions on all the concept
 - senario based question on arrays and methods
-- using denuggers to solve the nugs
+- using debuggers to solve the bugs
 
 ### 🔹 Code Practice & Pushing in Github
 - updated base folder **C# contorol flow**
@@ -326,7 +330,7 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 
 --- 
 
-##  🗓️ Day-12 | C# Basic,senario based questions on OOPS
+##  🗓️ Day-12 | C# Static , sealed, is , senario based questions on OOPS
 
 **Date:** 31 December 2025   
 
@@ -334,7 +338,37 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 ### 🔹 Topics Covered
 - senario based question on banking system and Invoice Generator for Freelancers 
 - senario based question on arrays and methods and oops concept
-- using denuggers to solve the nugs
+- learned about the very uses of static , final and is 
+- did questions on all the conscept 
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- updated base folder **C# contorol flow**
+- Pushed **core C#  senario based problems * to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in Strings and functions  and array
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--- 
+
+##  🗓️ Day-12 | C# Object Modeling and Design,senario based questions on OOPS
+
+**Date:** 1 jan 2026  
+
+
+### 🔹 Topics Covered
+- senario based question on cafetaria
+- senario based question on arrays and methods and oops concept
+- conscept of object diagrams and question on it
+- using debuggers to solve the bugs
 
 ### 🔹 Code Practice & Pushing in Github
 - updated base folder **C# contorol flow**
