@@ -286,7 +286,7 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - Pushed **core C#  senario based problems * to GitHub repository
 
 ## 🎯 Learning Outcome
-- Gained experience in Strings and functions  and array
+- Gained experience in class and object 
 - real life question and how to approch them
 - more proficient in csharp fucntionality
 - hands on practice in csharp
@@ -317,7 +317,7 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - Pushed **core C#  senario based problems * to GitHub repository
 
 ## 🎯 Learning Outcome
-- Gained experience in Strings and functions  and array
+- Gained experience in constructor
 - real life question and how to approch them
 - more proficient in csharp fucntionality
 - hands on practice in csharp
@@ -347,7 +347,7 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - Pushed **core C#  senario based problems * to GitHub repository
 
 ## 🎯 Learning Outcome
-- Gained experience in Strings and functions  and array
+- Gained experience in keyword and operator
 - real life question and how to approch them
 - more proficient in csharp fucntionality
 - hands on practice in csharp
@@ -359,7 +359,7 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 
 --- 
 
-##  🗓️ Day-12 | C# Object Modeling and Design,senario based questions on OOPS
+##  🗓️ Day-13 | C# Object Modeling and Design,senario based questions on OOPS
 
 **Date:** 1 jan 2026  
 
@@ -375,7 +375,62 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - Pushed **core C#  senario based problems * to GitHub repository
 
 ## 🎯 Learning Outcome
-- Gained experience in Strings and functions  and array
+- Gained experience in modeling and diagram of object
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--- 
+
+##  🗓️ Day-14 | C# inheritance and type,senario based questions on OOPS
+
+**Date:** 2 jan 2026  
+
+
+### 🔹 Topics Covered
+- senario based question on bus route and game in mela
+- senario based question on inheritance and oops concept
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- updated base folder **C# contorol flow**
+- Pushed **core C#  senario based problems * to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in inheritance
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--- 
+
+##  🗓️ Day-15 | C# senario based questions on OOPS
+
+**Date:** 3 jan 2026  
+
+
+### 🔹 Topics Covered
+- senario based question 
+- deep dive in the concept of oops with mentors
+- conscept  of class and type of inheritance and diamond problem 
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- updated base folder **C# contorol flow**
+- Pushed **core C#  senario based problems * to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in oops
 - real life question and how to approch them
 - more proficient in csharp fucntionality
 - hands on practice in csharp
