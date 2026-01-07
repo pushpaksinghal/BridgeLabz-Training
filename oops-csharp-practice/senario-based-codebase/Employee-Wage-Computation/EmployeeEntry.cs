@@ -12,7 +12,9 @@ namespace BridgelabzTraining.senario_based.Employee_Wage_Computation
         static void Main(string[] args)
         {
             EmployeeMenu menu = new EmployeeMenu();
-            menu.EmployeeOption();
+            //menu.EmployeeOption();
+            //changes for version 3
+            menu.TypeEmployee();
         }
     }
 }
