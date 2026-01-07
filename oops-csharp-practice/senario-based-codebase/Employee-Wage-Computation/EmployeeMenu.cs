@@ -19,7 +19,8 @@ namespace BridgelabzTraining.senario_based.Employee_Wage_Computation
                 Console.WriteLine("WELCOME TO EMPLOYEE WAGE COMPUTATION PROGRAM");
                 Console.WriteLine("1.Add Employee");
                 Console.WriteLine("2.Check Employee Attendance");
-                Console.WriteLine("3.Exit");
+                Console.WriteLine("3. Check Employee Daily Wages"); // changes  for version 2
+                Console.WriteLine("4.Exit");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 if(choice == 1)
                 {
@@ -31,7 +32,12 @@ namespace BridgelabzTraining.senario_based.Employee_Wage_Computation
                 {
                     employee.Attendance(emp1.GetId());
                 }
-                else if(choice ==3)
+                //for version 2 to print daily wages of an employee
+                else if(choice == 3)
+                {
+                    employee.DailyWage(emp1.GetId());
+                }
+                else if (choice == 4)
                 {
                     Console.WriteLine("Thnaks for visiting");
                     flag = false;

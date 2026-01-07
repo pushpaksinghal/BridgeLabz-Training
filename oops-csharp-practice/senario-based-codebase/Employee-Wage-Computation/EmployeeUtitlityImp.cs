@@ -14,7 +14,7 @@ namespace BridgelabzTraining.senario_based.Employee_Wage_Computation
         {
             Console.WriteLine("Employee Id:");
             long id = Convert.ToInt64(Console.ReadLine());
-            if(id.ToString().Length>6 && id.ToString().Length<6)
+            if (id.ToString().Length > 6 && id.ToString().Length < 6)
             {
                 Console.WriteLine("Id need to be of 6 digits");
                 return null;
@@ -25,12 +25,12 @@ namespace BridgelabzTraining.senario_based.Employee_Wage_Computation
             int age = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Employee Email:");
             string email = Console.ReadLine();
-            if(!email.Contains("@") || !email.Contains("."))
+            if (!email.Contains("@") || !email.Contains("."))
             {
                 Console.WriteLine("Invalid Email");
                 return null;
             }
-            _employee = new Employee(id,name,age,email);
+            _employee = new Employee(id, name, age, email);
             return _employee;
         }
 
@@ -48,6 +48,16 @@ namespace BridgelabzTraining.senario_based.Employee_Wage_Computation
                 Console.WriteLine("absent");
                 return false;
             }
+        }
+
+        // this was version 1
+
+        public void DailyWage(long employeeId)
+        {
+            int hourlyRate = 20;
+            int dailyHours = 8;
+            int dailyWage = hourlyRate * dailyHours;
+            Console.WriteLine("A Employee Daily Wage is " + dailyWage+" Rupees");
         }
     }
 }
