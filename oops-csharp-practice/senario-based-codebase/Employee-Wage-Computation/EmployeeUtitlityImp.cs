@@ -40,24 +40,39 @@ namespace BridgelabzTraining.senario_based.Employee_Wage_Computation
             int empCheck = random.Next(0, 2);
             if (empCheck == 1)
             {
-                Console.WriteLine("present");
                 return true;
             }
             else
             {
-                Console.WriteLine("absent");
                 return false;
             }
         }
 
         // this was version 1
 
-        public void DailyWage(long employeeId)
+        public int DailyWage(long employeeId)
         {
             int hourlyRate = 20;
             int dailyHours = 8;
             int dailyWage = hourlyRate * dailyHours;
             Console.WriteLine("A Employee Daily Wage is " + dailyWage+" Rupees");
+            return dailyWage;
+        }
+        // this is for version 5
+        public void MonthlyWage(long employeeId)
+        {
+            int count = 0;
+            for(int i = 0; i < 20; i++)
+            {
+                if (Attendance(employeeId))
+                {
+                    count++;
+                }
+            }
+
+            int monthlyWage = count * DailyWage(employeeId);
+            Console.WriteLine("the employee was present for " + count + " days");
+            Console.WriteLine("A employee Monthly Wage is " + monthlyWage + " Rupees");
         }
     }
 }

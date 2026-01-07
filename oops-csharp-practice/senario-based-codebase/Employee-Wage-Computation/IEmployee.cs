@@ -13,6 +13,10 @@ namespace BridgelabzTraining.senario_based.Employee_Wage_Computation
 
         // this was version one
 
-        public void DailyWage(long employeeId);
+        public int DailyWage(long employeeId);
+
+        //this was for version three
+
+        public void MonthlyWage(long employeeId);
     }
 }
