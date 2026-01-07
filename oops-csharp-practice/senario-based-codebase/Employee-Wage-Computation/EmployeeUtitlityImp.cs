@@ -61,18 +61,46 @@ namespace BridgelabzTraining.senario_based.Employee_Wage_Computation
         // this is for version 5
         public void MonthlyWage(long employeeId)
         {
+            //this changes are for version 6
             int count = 0;
-            for(int i = 0; i < 20; i++)
+            int hours = 0;
+            //for(int i = 0; i < 20; i++)
+            //{
+            //    if (Attendance(employeeId))
+            //    {
+            //        count++;
+            //    }
+            //}
+
+            int monthlyWageCount;
+            int monthlyWageHour;
+            //Console.WriteLine("the employee was present for " + count + " days");
+            //Console.WriteLine("A employee Monthly Wage is " + monthlyWage + " Rupees");
+
+            for (int i = 0; i < 30; i++)
             {
                 if (Attendance(employeeId))
                 {
                     count++;
-                }
+                    hours = hours + 8;
+                    if((count !=20 || hours <= 100)&& i<30)
+                    {
+                        continue;
+                    }
+                } 
             }
-
-            int monthlyWage = count * DailyWage(employeeId);
-            Console.WriteLine("the employee was present for " + count + " days");
-            Console.WriteLine("A employee Monthly Wage is " + monthlyWage + " Rupees");
+            monthlyWageCount = count * DailyWage(employeeId);
+            monthlyWageHour = hours * 20;
+            if (monthlyWageHour > monthlyWageCount)
+            {
+                Console.WriteLine("The Employee was present for " + count + " days and worked for " + hours + " hours in a month before they get paid");
+                Console.WriteLine("A employee Monthly Wage is " + monthlyWageHour + " Rupees");
+            }
+            else
+            {
+                Console.WriteLine("The Employee was present for " + count + " days and worked for " + hours + " hours in a month before they get paid");
+                Console.WriteLine("A employee Monthly Wage is " + monthlyWageCount + " Rupees");
+            }
         }
     }
 }

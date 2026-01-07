@@ -108,6 +108,7 @@ namespace BridgelabzTraining.senario_based.Employee_Wage_Computation
                 Console.WriteLine("Choose");
                 Console.WriteLine("1. Add Employee");
                 Console.WriteLine("2. Check Employee Daily Wages");
+                Console.WriteLine("3. Check  Monthly Wages");
                 Console.WriteLine("3. Exit");
                 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -124,7 +125,18 @@ namespace BridgelabzTraining.senario_based.Employee_Wage_Computation
                         else
                             Console.WriteLine("Please add employee first.");
                         break;
+                    // changes added for version 6
                     case 3:
+                        if (emp1 != null)
+                        {
+                            employee.MonthlyWage(emp1.GetId());
+                        }
+                        else
+                        {
+                            Console.WriteLine("Please add Employee first");
+                        }
+                        break;
+                    case 4:
                         Console.WriteLine("Thanks for visiting");
                         flag = false;
                         break;
