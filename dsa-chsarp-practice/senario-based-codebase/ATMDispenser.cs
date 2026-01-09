@@ -26,9 +26,8 @@ namespace BridgelabzTraining.senario_based
         {
             int initailamount = amount;
             Dictionary<int, int> dic = Input(n);
-            var sortedNotes = dic.OrderByDescending(x => x.Key);
             Dictionary<int , int>result = new Dictionary<int , int>();
-            foreach(var item in sortedNotes)
+            foreach(KeyValuePair<int, int> item in dic)
             {
                 int noteValue = item.Key;
                 int count = item.Value;
