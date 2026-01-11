@@ -223,7 +223,7 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
   - recursion methods
 
 ### 🔹 Code Practice & Pushing in Github
-- updated base folder **C# contorol flow**
+- updated base folder **C# Arrays**
 - Pushed **core C# level 3 of Arrays  and level 1 and 2  of methods code practice** to GitHub repository
 
 ## 🎯 Learning Outcome
@@ -255,7 +255,7 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
   - practice questions 
 
 ### 🔹 Code Practice & Pushing in Github
-- updated base folder **C# contorol flow**
+- updated base folder **C# string**
 - Pushed **core C# level 1 String and string handling  and lextras of built in functions* to GitHub repository
 
 ## 🎯 Learning Outcome
@@ -282,7 +282,7 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - using debuggers to solve the bugs
 
 ### 🔹 Code Practice & Pushing in Github
-- updated base folder **C# contorol flow**
+- updated base folder **C# Objects**
 - Pushed **core C#  senario based problems * to GitHub repository
 
 ## 🎯 Learning Outcome
@@ -313,7 +313,7 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - using debuggers to solve the bugs
 
 ### 🔹 Code Practice & Pushing in Github
-- updated base folder **C# contorol flow**
+- updated base folder **C# consturctor*
 - Pushed **core C#  senario based problems * to GitHub repository
 
 ## 🎯 Learning Outcome
@@ -343,7 +343,7 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - using debuggers to solve the bugs
 
 ### 🔹 Code Practice & Pushing in Github
-- updated base folder **C# contorol flow**
+- updated base folder **C# keywords and operators**
 - Pushed **core C#  senario based problems * to GitHub repository
 
 ## 🎯 Learning Outcome
@@ -371,7 +371,7 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - using debuggers to solve the bugs
 
 ### 🔹 Code Practice & Pushing in Github
-- updated base folder **C# contorol flow**
+- updated base folder **C# modeling and diagram**
 - Pushed **core C#  senario based problems * to GitHub repository
 
 ## 🎯 Learning Outcome
@@ -398,7 +398,7 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - using debuggers to solve the bugs
 
 ### 🔹 Code Practice & Pushing in Github
-- updated base folder **C# contorol flow**
+- updated base folder **C# inheritance**
 - Pushed **core C#  senario based problems * to GitHub repository
 
 ## 🎯 Learning Outcome
@@ -426,11 +426,146 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - using debuggers to solve the bugs
 
 ### 🔹 Code Practice & Pushing in Github
-- updated base folder **C# contorol flow**
 - Pushed **core C#  senario based problems * to GitHub repository
 
 ## 🎯 Learning Outcome
 - Gained experience in oops
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--- 
+
+##  🗓️ Day-16 | C# senario based questions on OOPS and concepts
+
+**Date:** 5 jan 2026  
+
+
+### 🔹 Topics Covered
+- senario based question  on hospital management and vahicle rantal system
+- deep dive in the concept of oops with mentors
+- conscept  of  Encapsulation, Polymorphism, Interface and Abstract Class
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- updated base folder **C# encapsulation abstruction**
+- Pushed **core C#  senario based problems * to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in oops
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--- 
+
+##  🗓️ Day-17 | C# senario based questions on OOPS
+
+**Date:** 6 jan 2026  
+
+
+### 🔹 Topics Covered
+- senario based question  on Bird Santury and customer call logs system
+- deep dive in the concept of oops with mentors
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **core C#  senario based problems * to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in oops
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--- 
+
+##  🗓️ Day-18 | C# senario based questions on OOPS and Dsa Concptes
+
+**Date:** 7 jan 2026  
+
+
+### 🔹 Topics Covered
+- senario based question  on Employee Wages system using versions
+- deep dive in the concept of oops with mentors
+- introduction of Linked List in dsa 
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- updated base folder **C# linked list**
+- Pushed **core C#  senario based problems * to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in oops and dsa
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--- 
+
+##  🗓️ Day-19 | C# senario based questions on OOPS and Dsa Concptes
+
+**Date:** 8 jan 2026  
+
+
+### 🔹 Topics Covered
+- senario based question  on Smart home automation system
+- deep dive in the concept of oops with mentors
+- introduction of stack queue and dictionanry in dsa 
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- updated base folder **C# stack queue dictionanry**
+- Pushed **core C#  senario based problems * to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in oops and dsa
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+##  🗓️ Day-20 | C# senario based questions on OOPS/dsa and Dsa Concptes
+
+**Date:** 9 jan 2026  
+
+
+### 🔹 Topics Covered
+- senario based question  on Atm dispensor system
+- deep dive in the concept of oops with mentors
+- introduction of sorting in dsa 
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- updated base folder **C# sorting**
+- Pushed **core C#  senario based problems * to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in oops and dsa
 - real life question and how to approch them
 - more proficient in csharp fucntionality
 - hands on practice in csharp
