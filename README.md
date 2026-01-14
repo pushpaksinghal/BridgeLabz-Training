@@ -574,3 +574,54 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - Continue practicing C# programming concepts
 - Explore concepts in C#
 - Learn more about .NET libraries and real-world projects
+
+##  🗓️ Day-21 | C# senario based questions on OOPS/dsa and Dsa Concptes
+
+**Date:** 12 jan 2026  
+
+
+### 🔹 Topics Covered
+- senario based question  on Metal Factory Pipe Cutting, Custom Furniture Manufacturing and LoanBuddy – Loan Approval Automation
+- deep dive in the concept of Linear Search and Binary Search, StringBuilder, StringBuffer, BufferedReader, FileReader, InputStreamReader
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- updated base folder **C# csharp-stringbuildle-binarysearch-filereader**
+- Pushed **core C#  senario based problems * to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in oops and dsa
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+##  🗓️ Day-22 | C# senario based questions on OOPS/dsa and Dsa Concptes
+
+**Date:** 13 jan 2026  
+
+
+### 🔹 Topics Covered
+- senario based question  on CinemaTime – Movie Schedule Manager,BookBuddy – Digital Bookshelf App
+- deep dive in the concept of oops with mentors
+- introduction of  Algorithm's Runtime Analysis & Big-O Notation
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- updated base folder **C# Runtime Analysis**
+- Pushed **core C#  senario based problems * to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in oops and dsa
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
