@@ -25,7 +25,8 @@ namespace BridgelabzTraining.senario_based.AddressBook
                 Console.WriteLine("WELCOME TO THE ADDRESS BOOK PROGRAM");
                 Console.WriteLine("1. Add Contact");
                 Console.WriteLine("2. Show Contact");
-                Console.WriteLine("3. Exit");
+                Console.WriteLine("3. Update Contact");// updated the menu according to the ask of the UC -3
+                Console.WriteLine("4. Exit");
 
                 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -38,6 +39,9 @@ namespace BridgelabzTraining.senario_based.AddressBook
                         addressBook.ShowContact();
                         break;
                     case 3:
+                        addressBook.EditContact();
+                        break;
+                    case 4:
                         flag =false;
                         break;
                     default:

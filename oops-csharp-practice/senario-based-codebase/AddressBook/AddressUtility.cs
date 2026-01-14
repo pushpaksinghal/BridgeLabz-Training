@@ -44,5 +44,43 @@ namespace BridgelabzTraining.senario_based.AddressBook
             }
 
         }
+        //UC-3 editing an existing contact details 
+        public void EditContact()
+        {
+            string firstName = Console.ReadLine();
+            string lastName = Console.ReadLine();
+
+            if(addressBook.ContactCount() == 0)
+            {
+                Console.WriteLine("No contacts available to edit.");
+                return;
+            }
+            else
+            {
+                for(int i = 0; i < addressBook.ContactCount(); i++)
+                {
+                    if(addressBook.Contacts()[i].FirstName() == firstName && addressBook.Contacts()[i].LastName() == lastName)
+                    {
+                        Console.WriteLine("Enter new Details :\nFirst Name\nLast Name\nAddress\nCity\nState\nZip\nPhone Number\nEmail");
+                        string newFisrtName = Console.ReadLine();
+                        string newLastName = Console.ReadLine();
+                        string newAddress = Console.ReadLine();
+                        string newCity = Console.ReadLine();
+                        string newState = Console.ReadLine();
+                        string newZip = Console.ReadLine();
+                        string newPhoneNumber = Console.ReadLine();
+                        string newEmail = Console.ReadLine();
+                        UserContact updatedContact = new UserContact(newFisrtName, newLastName, newAddress, newCity, newState, newZip, newPhoneNumber, newEmail);
+                        addressBook.Contacts()[i] = updatedContact;
+                        Console.WriteLine("Contact updated successfully.");
+                        return;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Contact not found.");
+                    }
+                }
+            }
+        }
     }
 }
