@@ -9,14 +9,17 @@ namespace BridgelabzTraining.senario_based.AddressBook
 {
     internal interface IAddressBook
     {
+        void AddAddressBook();
         // making AddContact method signature
-        void AddContact();
+        void ShowAddressBook();
+        bool OwnerEntry(string name);
+        void AddContact(string name);
         // making the method signature for adding multiple contacts
-        void AddContactsOfFamily();
-        void ShowContact();
+        void AddContactsOfFamily(string name);
+        void ShowContact(string name);
         // for UC-3 editing contact method signature
-        void EditContact();
+        void EditContact(string name);
         // for UC-4 deleting contact method signature
-        void DeleteContact();
+        void DeleteContact(string name);
     }
 }

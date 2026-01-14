@@ -11,7 +11,7 @@ namespace BridgelabzTraining.senario_based.AddressBook
         static void Main(string[] args)
         {
             AddressMenu menu = new AddressMenu();
-            menu.AddressStarter();
+            menu.Start();
         }
     }
 }

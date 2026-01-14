@@ -8,129 +8,198 @@ namespace BridgelabzTraining.senario_based.AddressBook
 {
     internal class AddressUtility : IAddressBook
     {
-        //UC-2 
-        private AddressBook addressBook;
+        //refactoring the whole code to inplement multiple addressBook by taking an array of addressbook
+                //UC-2 
+                //private AddressBook addressBook;
+        AddressBook[] Books = new AddressBook[10];
+        int count = 0;
 
-        public AddressUtility(AddressBook addressBook)
+        public void AddAddressBook()
         {
-            this.addressBook = addressBook;
-        }
-        //taking input for the contact details
-        public void AddContact()
-        {
-            Console.WriteLine("Enter Details :\nFirst Name\nLast Name\nAddress\nCity\nState\nZip\nPhone Number\nEmail");
-            string fisrtName = Console.ReadLine();
-            string lastName = Console.ReadLine();
-            string address = Console.ReadLine();
-            string city = Console.ReadLine();
-            string state = Console.ReadLine();
-            string zip = Console.ReadLine();
-            string phoneNumber = Console.ReadLine();
-            string email = Console.ReadLine();
-            // making a object for UserContact class
-            UserContact contact = new UserContact(fisrtName, lastName, address, city, state, zip, phoneNumber, email);
-            // using AddContact method of AddressBook class to add contact
-            addressBook.AddContact(contact);
-
-        }
-        // calling the add contact in a for loop for adding multiple contacts
-        public void AddContactsOfFamily()
-        {
-            Console.WriteLine("Enter number of contacts to add:");
-            int numberOfContacts = Convert.ToInt32(Console.ReadLine());
-            if(addressBook.Contacts().Length-addressBook.ContactCount()>=numberOfContacts)
+            if (count < Books.Length)
             {
-                for (int i = 0; i < numberOfContacts; i++)
-                {
-                    AddContact();
-                    Console.WriteLine();
-                }
+                string ownerName = Console.ReadLine();
+                int size  = Convert.ToInt32(Console.ReadLine());
+                Books[count++] = new AddressBook(size , ownerName);
             }
             else
             {
-                Console.WriteLine("Not enough space in address book to add more contacts.");
+                Console.WriteLine("Cannot add more address books.");
+            }
+        }
+
+        public void ShowAddressBook()
+        {
+            for(int i = 0; i <count; i++)
+            {
+                Console.WriteLine(Books[i].OwnerName());
+            }
+        }
+                //public AddressUtility(AddressBook addressBook)
+                //{
+                //    this.addressBook = addressBook;
+                //}
+                //taking input for the contact details
+        public bool OwnerEntry(String name)
+        {
+            for(int i=0; i < count; i++)
+            {
+                if(Books[i].OwnerName() == name)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+        public void AddContact(string name)
+        {
+            for(int i = 0; i < count; i++)
+            {
+                if(Books[i].OwnerName().Equals(name))
+                {
+                    Console.WriteLine("Enter Details :\nFirst Name\nLast Name\nAddress\nCity\nState\nZip\nPhone Number\nEmail");
+                    string fisrtName = Console.ReadLine();
+                    string lastName = Console.ReadLine();
+                    string address = Console.ReadLine();
+                    string city = Console.ReadLine();
+                    string state = Console.ReadLine();
+                    string zip = Console.ReadLine();
+                    string phoneNumber = Console.ReadLine();
+                    string email = Console.ReadLine();
+                    // making a object for UserContact class
+                    UserContact contact = new UserContact(fisrtName, lastName, address, city, state, zip, phoneNumber, email);
+                    // using AddContact method of AddressBook class to add contact
+                    Books[i].AddContact(contact);
+                }
+            }
+        }
+        // calling the add contact in a for loop for adding multiple contacts
+        public void AddContactsOfFamily(string name)
+        {
+            for (int i= 0; i < count; i++)
+            {
+                if (Books[i].OwnerName().Equals(name))
+                {
+                    Console.WriteLine("Enter number of contacts to add:");
+                    int numberOfContacts = Convert.ToInt32(Console.ReadLine());
+                    if (Books[i].Contacts().Length - Books[i].ContactCount() >= numberOfContacts)
+                    {
+                        for (int j = 0; j < numberOfContacts; j++)
+                        {
+                            AddContact(name);
+                            Console.WriteLine();
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Not enough space in address book to add more contacts.");
+                    }
+                }
             }
             
         }
-        public void ShowContact()
+        public void ShowContact(string name)
         {
-            UserContact[] contacts = addressBook.Contacts();
-            int count = addressBook.ContactCount();
-            for (int i = 0; i < count; i++)
+            for(int i=0; i < count; i++)
             {
-                Console.WriteLine(contacts[i].ToString());
+                if (Books[i].OwnerName().Equals(name))
+                {
+                    UserContact[] contacts = Books[i].Contacts();
+                    int count = Books[i].ContactCount();
+                    for (int j = 0; j < count; j++)
+                    {
+                        Console.WriteLine(contacts[j].ToString());
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("there are no contacts available");
+                }
             }
 
         }
         //UC-3 editing an existing contact details 
-        public void EditContact()
+        public void EditContact(string name)
         {
-            string firstName = Console.ReadLine();
-            string lastName = Console.ReadLine();
-
-            if(addressBook.ContactCount() == 0)
+            for(int i = 0; i < count; i++)
             {
-                Console.WriteLine("No contacts available to edit.");
-                return;
-            }
-            else
-            {
-                for(int i = 0; i < addressBook.ContactCount(); i++)
+                if (Books[i].OwnerName().Equals(name))
                 {
-                    if(addressBook.Contacts()[i].FirstName() == firstName && addressBook.Contacts()[i].LastName() == lastName)
+                    string firstName = Console.ReadLine();
+                    string lastName = Console.ReadLine();
+
+                    if (Books[i].ContactCount() == 0)
                     {
-                        Console.WriteLine("Enter new Details :\nFirst Name\nLast Name\nAddress\nCity\nState\nZip\nPhone Number\nEmail");
-                        string newFisrtName = Console.ReadLine();
-                        string newLastName = Console.ReadLine();
-                        string newAddress = Console.ReadLine();
-                        string newCity = Console.ReadLine();
-                        string newState = Console.ReadLine();
-                        string newZip = Console.ReadLine();
-                        string newPhoneNumber = Console.ReadLine();
-                        string newEmail = Console.ReadLine();
-                        UserContact updatedContact = new UserContact(newFisrtName, newLastName, newAddress, newCity, newState, newZip, newPhoneNumber, newEmail);
-                        addressBook.Contacts()[i] = updatedContact;
-                        Console.WriteLine("Contact updated successfully.");
+                        Console.WriteLine("No contacts available to edit.");
                         return;
                     }
                     else
                     {
-                        Console.WriteLine("Contact not found.");
+                        for (int j = 0; j < Books[i].ContactCount(); j++)
+                        {
+                            if (Books[i].Contacts()[j].FirstName() == firstName && Books[i].Contacts()[j].LastName() == lastName)
+                            {
+                                Console.WriteLine("Enter new Details :\nFirst Name\nLast Name\nAddress\nCity\nState\nZip\nPhone Number\nEmail");
+                                string newFisrtName = Console.ReadLine();
+                                string newLastName = Console.ReadLine();
+                                string newAddress = Console.ReadLine();
+                                string newCity = Console.ReadLine();
+                                string newState = Console.ReadLine();
+                                string newZip = Console.ReadLine();
+                                string newPhoneNumber = Console.ReadLine();
+                                string newEmail = Console.ReadLine();
+                                UserContact updatedContact = new UserContact(newFisrtName, newLastName, newAddress, newCity, newState, newZip, newPhoneNumber, newEmail);
+                                Books[i].Contacts()[j] = updatedContact;
+                                Console.WriteLine("Contact updated successfully.");
+                                return;
+                            }
+                            else
+                            {
+                                Console.WriteLine("Contact not found.");
+                            }
+                        }
                     }
                 }
             }
+            
         }
         // UC-4 deleting a contact from address book
-        public void DeleteContact()
+        public void DeleteContact(string name)
         {
-            string firstName = Console.ReadLine();
-            string lastName = Console.ReadLine();
-
-            if(addressBook.ContactCount() ==0)
+            for(int i = 0; i < count; i++)
             {
-                Console.WriteLine("No contacts available to delete.");
-                return;
-            }
-            else
-            {
-                for(int i = 0; i < addressBook.ContactCount(); i++)
+                if (Books[i].OwnerName().Equals(name))
                 {
-                    if(addressBook.Contacts()[i].FirstName() == firstName && addressBook.Contacts()[i].LastName() == lastName)
+                    string firstName = Console.ReadLine();
+                    string lastName = Console.ReadLine();
+
+                    if (Books[i].ContactCount() == 0)
                     {
-                        if(addressBook.DeleteContactAt(i))
-                        {
-                            Console.WriteLine("Contact deleted successfully.");
-                        }
-                        else
-                        {
-                            Console.WriteLine("Failed to delete contact.");
-                            return;
-                        }
+                        Console.WriteLine("No contacts available to delete.");
+                        return;
                     }
                     else
                     {
-                        Console.WriteLine("Contact not found.");
-                        return;
+                        for (int j = 0; j < Books[i].ContactCount(); j++)
+                        {
+                            if (Books[i].Contacts()[j].FirstName() == firstName && Books[i].Contacts()[j].LastName() == lastName)
+                            {
+                                if (Books[i].DeleteContactAt(j))
+                                {
+                                    Console.WriteLine("Contact deleted successfully.");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Failed to delete contact.");
+                                    return;
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("Contact not found.");
+                                return;
+                            }
+                        }
                     }
                 }
             }

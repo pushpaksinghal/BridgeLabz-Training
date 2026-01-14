@@ -9,20 +9,57 @@ namespace BridgelabzTraining.senario_based.AddressBook
     internal class AddressMenu
     {
         // making a object of AddresBook from teh signature of Interface
-        IAddressBook addressBook;
+        IAddressBook addressBook = new AddressUtility();
 
-        public void AddressStarter()
+        public void Start()
         {
-            // taking input of the owner of the addresbook
-            Console.WriteLine("Enter Owner name and Book Size");
-            string ownerName = Console.ReadLine();
-            int size = Convert.ToInt32(Console.ReadLine());
-            AddressBook book = new AddressBook(size, ownerName);
-            addressBook = new AddressUtility(book);
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("WELCOME TO THE ADDRESS BOOK PROGRAM");
+                Console.WriteLine("WELCOME TO ADDRESS BOOK PROGRAM");
+                Console.WriteLine("1.Add Address Book");
+                Console.WriteLine("2.See all the Address Books");
+                Console.WriteLine("3.Enter a Address Book");
+                Console.WriteLine("4.Exit");
+
+                int choose = Convert.ToInt32(Console.ReadLine());
+                switch (choose)
+                {
+                    case 1:
+                        addressBook.AddAddressBook();
+                        break;
+                    case 2:
+                        addressBook.ShowAddressBook();
+                        break;
+                    case 3:
+                        string ownerName = Console.ReadLine();
+                        if (addressBook.OwnerEntry(ownerName))
+                        {
+                            AddressStarter(ownerName);
+                            break;
+                        }
+                        else
+                        {
+                            flag = false;
+                            Console.WriteLine("There is no owner in the name of " + ownerName);
+                            break;
+                        }
+                    case 4:
+                        flag = false;
+                        break;
+                    default:
+                        flag = false;
+                        Console.Error.WriteLine("Invalid Input");
+                        break;
+                }
+            }
+        }
+        public void AddressStarter(string name)
+        {
+            bool flag = true;
+            while (flag)
+            {
+                Console.WriteLine("WELCOME OWNER");
                 Console.WriteLine("1. Add Contact");
                 Console.WriteLine("2. Add Contact of whole Family");// updated the menu according to the ask of the UC-5
                 Console.WriteLine("3. Show Contact");
@@ -35,19 +72,19 @@ namespace BridgelabzTraining.senario_based.AddressBook
                 switch (choice)
                 {
                     case 1:
-                        addressBook.AddContact();
+                        addressBook.AddContact(name);
                         break;
                     case 2:
-                        addressBook.AddContactsOfFamily();
+                        addressBook.AddContactsOfFamily(name);
                         break;
                     case 3:
-                        addressBook.ShowContact();
+                        addressBook.ShowContact(name);
                         break;
                     case 4:
-                        addressBook.EditContact();
+                        addressBook.EditContact(name);
                         break;
                     case 5:
-                        addressBook.DeleteContact();
+                        addressBook.DeleteContact(name);
                         break;
                     case 6:
                         flag =false;
