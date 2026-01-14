@@ -82,5 +82,40 @@ namespace BridgelabzTraining.senario_based.AddressBook
                 }
             }
         }
+        // UC-4 deleting a contact from address book
+        public void DeleteContact()
+        {
+            string firstName = Console.ReadLine();
+            string lastName = Console.ReadLine();
+
+            if(addressBook.ContactCount() ==0)
+            {
+                Console.WriteLine("No contacts available to delete.");
+                return;
+            }
+            else
+            {
+                for(int i = 0; i < addressBook.ContactCount(); i++)
+                {
+                    if(addressBook.Contacts()[i].FirstName() == firstName && addressBook.Contacts()[i].LastName() == lastName)
+                    {
+                        if(addressBook.DeleteContactAt(i))
+                        {
+                            Console.WriteLine("Contact deleted successfully.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Failed to delete contact.");
+                            return;
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Contact not found.");
+                        return;
+                    }
+                }
+            }
+        }
     }
 }

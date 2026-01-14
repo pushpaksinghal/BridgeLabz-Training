@@ -36,5 +36,22 @@ namespace BridgelabzTraining.senario_based.AddressBook
             }
 
         }
+        //added a method for deleting a contact because the count is here
+        public bool DeleteContactAt(int index)
+        {
+            if (index < 0 || index >= contactcount)
+            {
+                return false;
+            }
+            for (int i = index; i < contactcount - 1; i++)
+            {
+                contacts[i] = contacts[i + 1];
+            }
+
+            contacts[contactcount - 1] = null;
+            contactcount--;
+
+            return true;
+        }
     }
 }
