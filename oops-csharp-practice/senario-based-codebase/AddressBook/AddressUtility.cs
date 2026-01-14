@@ -33,7 +33,25 @@ namespace BridgelabzTraining.senario_based.AddressBook
             addressBook.AddContact(contact);
 
         }
-
+        // calling the add contact in a for loop for adding multiple contacts
+        public void AddContactsOfFamily()
+        {
+            Console.WriteLine("Enter number of contacts to add:");
+            int numberOfContacts = Convert.ToInt32(Console.ReadLine());
+            if(addressBook.Contacts().Length-addressBook.ContactCount()>=numberOfContacts)
+            {
+                for (int i = 0; i < numberOfContacts; i++)
+                {
+                    AddContact();
+                    Console.WriteLine();
+                }
+            }
+            else
+            {
+                Console.WriteLine("Not enough space in address book to add more contacts.");
+            }
+            
+        }
         public void ShowContact()
         {
             UserContact[] contacts = addressBook.Contacts();

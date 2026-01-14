@@ -24,10 +24,11 @@ namespace BridgelabzTraining.senario_based.AddressBook
             {
                 Console.WriteLine("WELCOME TO THE ADDRESS BOOK PROGRAM");
                 Console.WriteLine("1. Add Contact");
-                Console.WriteLine("2. Show Contact");
-                Console.WriteLine("3. Update Contact");// updated the menu according to the ask of the UC -3
-                Console.WriteLine("4. Delete Contact");// updated the menu according to the ask of the UC-4
-                Console.WriteLine("5. Exit");
+                Console.WriteLine("2. Add Contact of whole Family");// updated the menu according to the ask of the UC-5
+                Console.WriteLine("3. Show Contact");
+                Console.WriteLine("4. Update Contact");// updated the menu according to the ask of the UC -3
+                Console.WriteLine("5. Delete Contact");// updated the menu according to the ask of the UC-4
+                Console.WriteLine("6. Exit");
 
                 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -37,15 +38,18 @@ namespace BridgelabzTraining.senario_based.AddressBook
                         addressBook.AddContact();
                         break;
                     case 2:
-                        addressBook.ShowContact();
+                        addressBook.AddContactsOfFamily();
                         break;
                     case 3:
-                        addressBook.EditContact();
+                        addressBook.ShowContact();
                         break;
                     case 4:
-                        addressBook.DeleteContact();
+                        addressBook.EditContact();
                         break;
                     case 5:
+                        addressBook.DeleteContact();
+                        break;
+                    case 6:
                         flag =false;
                         break;
                     default:

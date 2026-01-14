@@ -11,6 +11,8 @@ namespace BridgelabzTraining.senario_based.AddressBook
     {
         // making AddContact method signature
         void AddContact();
+        // making the method signature for adding multiple contacts
+        void AddContactsOfFamily();
         void ShowContact();
         // for UC-3 editing contact method signature
         void EditContact();
