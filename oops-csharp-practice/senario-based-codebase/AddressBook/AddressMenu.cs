@@ -71,7 +71,8 @@ namespace BridgelabzTraining.senario_based.AddressBook
                 Console.WriteLine("5. Delete Contact");// updated the menu according to the ask of the UC-4
                 Console.WriteLine("6. View all teh people in a perticular state or city");// updated the menu according to the ask of the UC-9
                 Console.WriteLine("7. Totle number of people in that city or state"); // updated the menu according to the ask of the UC-10
-                Console.WriteLine("8. Exit");
+                Console.WriteLine("8. Sort the Address Book Alphabaticlly"); // updated the menu according to the ask of UC-11
+                Console.WriteLine("9. Exit");
 
                 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -99,6 +100,9 @@ namespace BridgelabzTraining.senario_based.AddressBook
                         addressBook.CountByCityOrState(name);
                         break;
                     case 8:
+                        addressBook.SortContactsAlphabetically(name);
+                        break;
+                    case 9:
                         flag =false;
                         break;
                     default:

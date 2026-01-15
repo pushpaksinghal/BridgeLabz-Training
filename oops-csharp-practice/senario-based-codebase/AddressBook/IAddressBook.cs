@@ -27,5 +27,7 @@ namespace BridgelabzTraining.senario_based.AddressBook
         void ViewAllByCityOrState(string name);
         // for UC-10 counting person by city or state accross multiple address book
         void CountByCityOrState(string name);
+        // for UC-11 sorting contacts alphabetically
+        void SortContactsAlphabetically(string name):
     }
 }

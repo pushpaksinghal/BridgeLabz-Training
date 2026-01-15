@@ -289,5 +289,70 @@ namespace BridgelabzTraining.senario_based.AddressBook
             }
 
         }
+
+        public void SortContactsAlphabetically(string name)
+        {
+            for (int i = 0; i < count; i++)
+            {
+                if (Books[i] != null && Books[i].OwnerName().Equals(name))
+                {
+                    UserContact[] contacts = Books[i].Contacts();
+                    int contactCount = Books[i].ContactCount();
+
+                    if (contactCount > 1)
+                    {
+                        QuickSort(contacts, 0, contactCount - 1);
+                    }
+
+                    Console.WriteLine("Contacts sorted alphabetically using Quick Sort.");
+                    return;
+                }
+            }
+        }
+        // private methods for applying quicj sort algorithm 
+        private void QuickSort(UserContact[] contacts, int low, int high)
+        {
+            if (low < high)
+            {
+                int pivotIndex = Partition(contacts, low, high);
+                QuickSort(contacts, low, pivotIndex - 1);
+                QuickSort(contacts, pivotIndex + 1, high);
+            }
+        }
+
+        private int Partition(UserContact[] contacts, int low, int high)
+        {
+            UserContact pivot = contacts[high];
+            int i = low - 1;
+
+            for (int j = low; j < high; j++)
+            {
+                if (CompareContacts(contacts[j], pivot) <= 0)
+                {
+                    i++;
+                    Swap(contacts, i, j);
+                }
+            }
+
+            Swap(contacts, i + 1, high);
+            return i + 1;
+        }
+
+        private int CompareContacts(UserContact c1, UserContact c2)
+        {
+            int firstNameCompare = c1.FirstName().CompareTo(c2.FirstName());
+            if (firstNameCompare != 0)
+                return firstNameCompare;
+
+            return c1.LastName().CompareTo(c2.LastName());
+        }
+
+        private void Swap(UserContact[] contacts, int i, int j)
+        {
+            UserContact temp = contacts[i];
+            contacts[i] = contacts[j];
+            contacts[j] = temp;
+        }
+
     }
 }
