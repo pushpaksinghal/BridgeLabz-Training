@@ -1,12 +1,14 @@
 public class Solution {
     public bool ContainsDuplicate(int[] nums) {
-        HashSet<int> dup = new HashSet<int>();
+       Array.Sort(nums);
 
-        foreach(int index in nums){
-            if(!dup.Add(index)){
+       for(int i=0;i<nums.Length-1;i++)
+       {
+            if(nums[i] == nums[i+1])
+            {
                 return true;
             }
-        }
-        return false;
+       }
+       return false;
     }
 }

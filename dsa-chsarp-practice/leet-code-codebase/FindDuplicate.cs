@@ -1,10 +1,12 @@
 public class Solution {
     public int FindDuplicate(int[] nums) {
-        HashSet<int> dup = new HashSet<int>();
+         Array.Sort(nums);
 
-        foreach(int x in nums){
-            if(!dup.Add(x)){
-                return x;
+        for(int i=0;i<nums.Length-1;i++)
+        {
+            if(nums[i] == nums[i+1])
+            {
+                return nums[i];
             }
         }
         return 0;
