@@ -55,7 +55,7 @@ namespace BridgelabzTraining.senario_based.AddressBook
         {
             for(int i = 0; i < count; i++)
             {
-                if(Books[i].OwnerName().Equals(name))
+                if(Books[i] !=null && Books[i].OwnerName().Equals(name))
                 {
                     Console.WriteLine("Enter Details :\nFirst Name\nLast Name\nAddress\nCity\nState\nZip\nPhone Number\nEmail");
                     string fisrtName = Console.ReadLine();
@@ -66,12 +66,35 @@ namespace BridgelabzTraining.senario_based.AddressBook
                     string zip = Console.ReadLine();
                     string phoneNumber = Console.ReadLine();
                     string email = Console.ReadLine();
-                    // making a object for UserContact class
-                    UserContact contact = new UserContact(fisrtName, lastName, address, city, state, zip, phoneNumber, email);
-                    // using AddContact method of AddressBook class to add contact
-                    Books[i].AddContact(contact);
+                    // checking for duplicate contact
+                    if (IsDuplicate(fisrtName, lastName,i))
+                    {
+                        Console.WriteLine("Duplicate contact found. Contact not added.");
+                        return;
+                    }
+                    else
+                    {
+                        // making a object for UserContact class
+                        UserContact contact = new UserContact(fisrtName, lastName, address, city, state, zip, phoneNumber, email);
+                        // using AddContact method of AddressBook class to add contact
+                        Books[i].AddContact(contact);
+                        return;
+                    }
                 }
             }
+        }
+        // checking for duplicate contact UC-7
+        private bool IsDuplicate(string firstName,string lastName , int i)
+        {
+            UserContact[] contacts = Books[i].Contacts();
+            for(int j = 0; j < contacts.Length; j++)
+            {
+                if(contacts[j]!=null && contacts[j].FirstName().Equals(firstName) && contacts[j].LastName().Equals(lastName))
+                {
+                    return true;
+                }
+            }
+            return false;
         }
         // calling the add contact in a for loop for adding multiple contacts
         public void AddContactsOfFamily(string name)
