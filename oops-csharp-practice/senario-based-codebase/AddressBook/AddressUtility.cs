@@ -267,5 +267,27 @@ namespace BridgelabzTraining.senario_based.AddressBook
                 }
             }
         }
+
+        public void CountByCityOrState(string name)
+        {
+            int temp = 0;
+            for (int i = 0; i < count; i++)
+            {
+                if (Books[i].OwnerName().Equals(name))
+                {
+                    string cityorstate = Console.ReadLine();
+                    UserContact[] contacts = Books[i].Contacts();
+                    for (int j = 0; j < contacts.Length; j++)
+                    {
+                        if (contacts[j] != null && (contacts[j].City().Equals(cityorstate) || contacts[j].State().Equals(cityorstate)))
+                        {
+                            temp++;
+                        }
+                    }
+                    Console.WriteLine("Total contacts in " + cityorstate + ": " + temp);
+                }
+            }
+
+        }
     }
 }

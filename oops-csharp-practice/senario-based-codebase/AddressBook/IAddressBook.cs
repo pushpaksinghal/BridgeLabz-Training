@@ -25,5 +25,7 @@ namespace BridgelabzTraining.senario_based.AddressBook
         void SearchPersonByCityOrState();
         // for UC-9 viewing person by city or state accross multiple address book
         void ViewAllByCityOrState(string name);
+        // for UC-10 counting person by city or state accross multiple address book
+        void CountByCityOrState(string name);
     }
 }
