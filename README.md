@@ -549,10 +549,12 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - Explore concepts in C#
 - Learn more about .NET libraries and real-world projects
 
+---
+
+
 ##  🗓️ Day-20 | C# senario based questions on OOPS/dsa and Dsa Concptes
 
 **Date:** 9 jan 2026  
-
 
 ### 🔹 Topics Covered
 - senario based question  on Atm dispensor system
@@ -574,6 +576,9 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - Continue practicing C# programming concepts
 - Explore concepts in C#
 - Learn more about .NET libraries and real-world projects
+
+---
+
 
 ##  🗓️ Day-21 | C# senario based questions on OOPS/dsa and Dsa Concptes
 
@@ -600,10 +605,12 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - Explore concepts in C#
 - Learn more about .NET libraries and real-world projects
 
+---
+
+
 ##  🗓️ Day-22 | C# senario based questions on OOPS/dsa and Dsa Concptes
 
 **Date:** 13 jan 2026  
-
 
 ### 🔹 Topics Covered
 - senario based question  on CinemaTime – Movie Schedule Manager,BookBuddy – Digital Bookshelf App
@@ -614,6 +621,60 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 ### 🔹 Code Practice & Pushing in Github
 - updated base folder **C# Runtime Analysis**
 - Pushed **core C#  senario based problems * to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in oops and dsa
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+---
+
+
+##  🗓️ Day-23 | C# senario based questions on OOPS
+
+**Date:** 14 jan 2026  
+
+### 🔹 Topics Covered
+- senario based question  on AddressBook
+- deep dive in the concept of oops with mentors
+- Did version based coding where we push according to the Use case provided and refactor the code for the next one
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **core C#  senario based problems* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in oops and dsa
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+---
+
+##  🗓️ Day-24 | C# senario based questions
+
+**Date:** 15 jan 2026  
+
+### 🔹 Topics Covered
+- senario based question AddressBook
+- deep dive in the concept of oops with mentors
+- continuing the use of more use cases in  teh same codebase of addressbook
+-- addeing more methods accoring to the nedd
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **core C#  senario based problems* to GitHub repository
 
 ## 🎯 Learning Outcome
 - Gained experience in oops and dsa
