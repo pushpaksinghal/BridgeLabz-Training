@@ -20,7 +20,8 @@ namespace BridgelabzTraining.senario_based.AddressBook
                 Console.WriteLine("1.Add Address Book");
                 Console.WriteLine("2.See all the Address Books");
                 Console.WriteLine("3.Enter a Address Book");
-                Console.WriteLine("4.Exit");
+                Console.WriteLine("4.Search person accross all the address books");// searching a person accross mulpitle address book UC-8
+                Console.WriteLine("5.Exit");
 
                 int choose = Convert.ToInt32(Console.ReadLine());
                 switch (choose)
@@ -45,6 +46,9 @@ namespace BridgelabzTraining.senario_based.AddressBook
                             break;
                         }
                     case 4:
+                        addressBook.SearchPersonByCityOrState();
+                        break;
+                    case 5:
                         flag = false;
                         break;
                     default:

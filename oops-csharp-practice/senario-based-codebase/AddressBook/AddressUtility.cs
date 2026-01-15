@@ -227,5 +227,26 @@ namespace BridgelabzTraining.senario_based.AddressBook
                 }
             }
         }
+        // Search a person accross the multiple address book by city or state UC-8
+        public void SearchPersonByCityOrState()
+        {
+            string firstname = Console.ReadLine();
+            string cityorstate = Console.ReadLine();
+            for (int i = 0; i < count; i++)
+            {
+                if (Books[i] != null)
+                {
+                    UserContact[] contacts = Books[i].Contacts();
+                    for(int j = 0; j < contacts.Length; j++)
+                    {
+                        if(contacts[j] != null && contacts[j].FirstName().Equals(firstname) && (contacts[j].City().Equals(cityorstate) || contacts[j].State().Equals(cityorstate)))
+                        {
+                            Console.WriteLine("Address Book Name:"+ Books[i].OwnerName());
+                            Console.WriteLine("Found contact: " + contacts[j].ToString());
+                        }
+                    }
+                }
+            }
+        }
     }
 }
