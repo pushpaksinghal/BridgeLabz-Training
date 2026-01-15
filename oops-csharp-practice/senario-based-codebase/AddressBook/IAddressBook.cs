@@ -23,5 +23,7 @@ namespace BridgelabzTraining.senario_based.AddressBook
         void DeleteContact(string name);
         // for Uc-8 searching person by city or state accross multiple address book
         void SearchPersonByCityOrState();
+        // for UC-9 viewing person by city or state accross multiple address book
+        void ViewAllByCityOrState(string name);
     }
 }

@@ -69,7 +69,8 @@ namespace BridgelabzTraining.senario_based.AddressBook
                 Console.WriteLine("3. Show Contact");
                 Console.WriteLine("4. Update Contact");// updated the menu according to the ask of the UC -3
                 Console.WriteLine("5. Delete Contact");// updated the menu according to the ask of the UC-4
-                Console.WriteLine("6. Exit");
+                Console.WriteLine("6. View all teh people in a perticular state or city");// updated the menu according to the ask of the UC-9
+                Console.WriteLine("7. Exit");
 
                 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -91,6 +92,9 @@ namespace BridgelabzTraining.senario_based.AddressBook
                         addressBook.DeleteContact(name);
                         break;
                     case 6:
+                        addressBook.ViewAllByCityOrState(name);
+                        break;
+                    case 7:
                         flag =false;
                         break;
                     default:
