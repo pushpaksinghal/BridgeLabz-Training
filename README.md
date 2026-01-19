@@ -686,3 +686,57 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - Continue practicing C# programming concepts
 - Explore concepts in C#
 - Learn more about .NET libraries and real-world projects
+
+---
+
+##  🗓️ Day-25 | C# senario based questions
+
+**Date:** 16 jan 2026  
+
+### 🔹 Topics Covered
+- senario based question Traffic manager and BookShelf
+- deep dive in the concept of oops with mentors
+- continuing the use of more use cases in  teh same codebase of addressbook
+-- addeing more methods accoring to the nedd
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **Dsa C#  senario based problems* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in oops and dsa
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+---
+
+##  🗓️ Day-26 | C# senario based questions
+
+**Date:** 17 jan 2026  
+
+### 🔹 Topics Covered
+- senario based question FlashDeals, FitnessTracker and implemanted linkedlist in AddressBook
+- deep dive in the concept of oops with mentors
+- continuing the use of more use cases in  teh same codebase of addressbook
+-- addeing more methods accoring to the nedd
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **dsa C#  senario based problems* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in oops and dsa
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
