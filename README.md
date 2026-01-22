@@ -740,3 +740,87 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - Continue practicing C# programming concepts
 - Explore concepts in C#
 - Learn more about .NET libraries and real-world projects
+
+--
+
+##  🗓️ Day-27 | C# senario based questions And Start of Genrerics
+
+**Date:** 19 jan 2026  
+
+### 🔹 Topics Covered
+- senario based question ParcelTracker, ExamProctor
+- deep dive in the concept of oops with mentors
+- Generics concepts
+- addeing more methods accoring to the nedd
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **dsa C#  senario based problems* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in oops and dsa
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+
+--
+
+##  🗓️ Day-28 | C# senario based questions and Collections
+
+**Date:** 20 jan 2026  
+
+### 🔹 Topics Covered
+- senario based question Sorting Aadhar Number and Passward Cracker
+- deep dive in the concept of oops with mentors
+- continuing the use of more use cases in  teh same codebase of addressbook
+- Collections Concepts
+-- addeing more methods accoring to the nedd
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **dsa C#  senario based problems* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in oops and dsa
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--
+
+##  🗓️ Day-29 | C# senario based questions and Streams
+
+**Date:** 21 jan 2026  
+
+### 🔹 Topics Covered
+- senario based question EduResults, SmartCheckout
+- deep dive in the concept of oops with mentors
+- continuing the use of more use cases in  teh same codebase of addressbook
+- Stream concepts
+- addeing more methods accoring to the nedd
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **dsa C#  senario based problems* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in oops and dsa
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
