@@ -1,0 +1,11 @@
+E:\BankAccount\UserAccounts\obj\Debug\net10.0\UserAccounts.GeneratedMSBuildEditorConfig.editorconfig
+E:\BankAccount\UserAccounts\obj\Debug\net10.0\UserAccounts.AssemblyInfoInputs.cache
+E:\BankAccount\UserAccounts\obj\Debug\net10.0\UserAccounts.AssemblyInfo.cs
+E:\BankAccount\UserAccounts\obj\Debug\net10.0\UserAccounts.csproj.CoreCompileInputs.cache
+E:\BankAccount\UserAccounts\bin\Debug\net10.0\UserAccounts.deps.json
+E:\BankAccount\UserAccounts\bin\Debug\net10.0\UserAccounts.dll
+E:\BankAccount\UserAccounts\bin\Debug\net10.0\UserAccounts.pdb
+E:\BankAccount\UserAccounts\obj\Debug\net10.0\UserAccounts.dll
+E:\BankAccount\UserAccounts\obj\Debug\net10.0\refint\UserAccounts.dll
+E:\BankAccount\UserAccounts\obj\Debug\net10.0\UserAccounts.pdb
+E:\BankAccount\UserAccounts\obj\Debug\net10.0\ref\UserAccounts.dll
