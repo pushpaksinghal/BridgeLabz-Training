@@ -824,3 +824,113 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - Continue practicing C# programming concepts
 - Explore concepts in C#
 - Learn more about .NET libraries and real-world projects
+
+--
+
+##  🗓️ Day-30 | C# senario based questions and Exception
+
+**Date:** 22 jan 2026  
+
+### 🔹 Topics Covered
+- senario based question AmbulanceRoute 
+- deep dive in the concept of generics with mentors
+- continuing the use of more use cases in  teh same codebase of addressbook
+- Exception concepts
+- adding more methods accoring to the need
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **collections C#  senario based problems* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in oops and dsa
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--
+
+##  🗓️ Day-31 | C# senario based questions and Concepts
+
+**Date:** 23 jan 2026  
+
+### 🔹 Topics Covered
+- senario based question HealthCheckPro , EventTracker 
+- deep dive in the concept of Regex, NUint with mentors
+- continuing the use of more use cases in  teh same codebase of addressbook
+- addeing more methods accoring to the nedd
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **collections C#  senario based problems* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in oops and collection
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--
+
+##  🗓️ Day-32 | C# senario based questions and MS Testing
+
+**Date:** 27 jan 2026  
+
+### 🔹 Topics Covered
+- deep dive in the concept of MS Testing with mentors
+- continuing the use of more use cases in  teh same codebase of addressbook
+- Stream concepts
+- addeing more methods accoring to the nedd
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **Collections C#  senario based problems* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in oops and dsa
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--
+
+##  🗓️ Day-33 | C# senario based questions and CSV Data Handing
+
+**Date:** 28 jan 2026  
+
+### 🔹 Topics Covered
+- senario based question AeroVigil, validation of Bank Account
+- deep dive in the concept of Annotation and Reflection with mentors
+- continuing the use of more use cases in  teh same codebase of addressbook
+- Stream concepts
+- addeing more methods accoring to the nedd
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **Collections C#  senario based problems* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in oops and dsa
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
