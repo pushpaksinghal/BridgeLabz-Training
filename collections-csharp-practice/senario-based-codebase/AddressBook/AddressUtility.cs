@@ -24,7 +24,6 @@ namespace BridgelabzTraining.senario_based.AddressBook
             foreach (var book in books)
                 if (book.OwnerName() == name)
                     return true;
-
             return false;
         }
 
@@ -34,15 +33,12 @@ namespace BridgelabzTraining.senario_based.AddressBook
                 if (book.OwnerName() == name)
                     return book;
 
-            Console.WriteLine("Address book not found.");
-            return null;
+            throw new AddressBookNotFoundException(name);
         }
 
         public void AddContact(string name)
         {
             var book = GetAddressBook(name);
-            if (book == null) return;
-
             Console.WriteLine("Enter Details:");
             T contact = (T)Activator.CreateInstance(
                 typeof(T),
@@ -56,24 +52,17 @@ namespace BridgelabzTraining.senario_based.AddressBook
                 Console.ReadLine()
             );
 
-            if (IsDuplicate(book, contact))
+            foreach (var c in book.Contacts())
             {
-                Console.WriteLine("Duplicate contact found.");
-                return;
+                if (c.FirstName() == contact.FirstName() &&
+                    c.LastName() == contact.LastName())
+                {
+                    throw new DuplicateContactException(
+                        contact.FirstName() + " " + contact.LastName());
+                }
             }
 
             book.AddContact(contact);
-        }
-
-        private bool IsDuplicate(AddressBook<T> book, T newContact)
-        {
-            foreach (var c in book.Contacts())
-            {
-                if (c.FirstName() == newContact.FirstName() &&
-                    c.LastName() == newContact.LastName())
-                    return true;
-            }
-            return false;
         }
 
         public void AddContactsOfFamily(string name)
@@ -86,13 +75,9 @@ namespace BridgelabzTraining.senario_based.AddressBook
         public void ShowContact(string name)
         {
             var book = GetAddressBook(name);
-            if (book == null) return;
 
             if (book.Contacts().Count == 0)
-            {
-                Console.WriteLine("No contacts available.");
-                return;
-            }
+                throw new ContactNotFoundException("No contacts");
 
             foreach (var c in book.Contacts())
                 Console.WriteLine(c);
@@ -101,7 +86,6 @@ namespace BridgelabzTraining.senario_based.AddressBook
         public void EditContact(string name)
         {
             var book = GetAddressBook(name);
-            if (book == null) return;
 
             string fn = Console.ReadLine();
             string ln = Console.ReadLine();
@@ -111,29 +95,28 @@ namespace BridgelabzTraining.senario_based.AddressBook
                 var c = book.Contacts()[i];
                 if (c.FirstName() == fn && c.LastName() == ln)
                 {
+                    Console.WriteLine("Enter Details:");
                     book.Contacts()[i] = (T)Activator.CreateInstance(
                         typeof(T),
+                        Console.ReadLine(), 
                         Console.ReadLine(),
+                        Console.ReadLine(), 
                         Console.ReadLine(),
+                        Console.ReadLine(), 
                         Console.ReadLine(),
-                        Console.ReadLine(),
-                        Console.ReadLine(),
-                        Console.ReadLine(),
-                        Console.ReadLine(),
+                        Console.ReadLine(), 
                         Console.ReadLine()
                     );
-                    Console.WriteLine("Contact updated successfully.");
                     return;
                 }
             }
 
-            Console.WriteLine("Contact not found.");
+            throw new ContactNotFoundException(fn + " " + ln);
         }
 
         public void DeleteContact(string name)
         {
             var book = GetAddressBook(name);
-            if (book == null) return;
 
             string fn = Console.ReadLine();
             string ln = Console.ReadLine();
@@ -144,12 +127,11 @@ namespace BridgelabzTraining.senario_based.AddressBook
                 if (c.FirstName() == fn && c.LastName() == ln)
                 {
                     book.DeleteContactAt(i);
-                    Console.WriteLine("Contact deleted successfully.");
                     return;
                 }
             }
 
-            Console.WriteLine("Contact not found.");
+            throw new ContactNotFoundException(fn + " " + ln);
         }
 
         public void SearchPersonByCityOrState()
@@ -162,7 +144,7 @@ namespace BridgelabzTraining.senario_based.AddressBook
                 foreach (var c in book.Contacts())
                 {
                     if (c.FirstName() == fn &&
-                        (c.City() == cityOrState || c.State() == cityOrState))
+                       (c.City() == cityOrState || c.State() == cityOrState))
                     {
                         Console.WriteLine("Address Book: " + book.OwnerName());
                         Console.WriteLine(c);
@@ -174,8 +156,6 @@ namespace BridgelabzTraining.senario_based.AddressBook
         public void ViewAllByCityOrState(string name)
         {
             var book = GetAddressBook(name);
-            if (book == null) return;
-
             string cityOrState = Console.ReadLine();
 
             foreach (var c in book.Contacts())
@@ -186,11 +166,9 @@ namespace BridgelabzTraining.senario_based.AddressBook
         public void CountByCityOrState(string name)
         {
             var book = GetAddressBook(name);
-            if (book == null) return;
-
             string cityOrState = Console.ReadLine();
-            int count = 0;
 
+            int count = 0;
             foreach (var c in book.Contacts())
                 if (c.City() == cityOrState || c.State() == cityOrState)
                     count++;
@@ -201,15 +179,12 @@ namespace BridgelabzTraining.senario_based.AddressBook
         public void SortContactsAlphabetically(string name)
         {
             var book = GetAddressBook(name);
-            if (book == null) return;
 
             book.Contacts().Sort((a, b) =>
             {
                 int c = a.FirstName().CompareTo(b.FirstName());
                 return c != 0 ? c : a.LastName().CompareTo(b.LastName());
             });
-
-            Console.WriteLine("Contacts sorted alphabetically.");
         }
     }
 }
