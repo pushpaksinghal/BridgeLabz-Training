@@ -915,7 +915,64 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 
 ### 🔹 Topics Covered
 - senario based question AeroVigil, validation of Bank Account
-- deep dive in the concept of Annotation and Reflection with mentors
+- deep dive in the concept of CVS data handling with mentors
+- continuing the use of more use cases in  teh same codebase of addressbook
+- Stream concepts
+- addeing more methods accoring to the nedd
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **Collection C#  senario based problems* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in file handling
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+
+--
+
+##  🗓️ Day-34 | C# senario based questions and Json Data Handing
+
+**Date:** 29 jan 2026  
+
+### 🔹 Topics Covered
+- senario based question StreamBUzz, and OceanFleet
+- deep dive in the concept of Json data Handling with mentors
+- continuing the use of more use cases in  teh same codebase of addressbook
+- Stream concepts
+- addeing more methods accoring to the nedd
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **Collection C#  senario based problems* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in file handling
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--
+
+##  🗓️ Day-35 | C# senario based questions and CSV Data Handing
+
+**Date:** 30 jan 2026  
+
+### 🔹 Topics Covered
+- senario based question Lexical Twist, Future Logistics
+- deep dive in the concept of Data design and patterns with mentors
 - continuing the use of more use cases in  teh same codebase of addressbook
 - Stream concepts
 - addeing more methods accoring to the nedd
@@ -925,7 +982,36 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - Pushed **Collections C#  senario based problems* to GitHub repository
 
 ## 🎯 Learning Outcome
-- Gained experience in oops and dsa
+- Gained experience in data design and pattern
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+
+--
+
+##  🗓️ Day-36 | C# senario based questions and CSV Data Handing
+
+**Date:** 2 feb 2026  
+
+### 🔹 Topics Covered
+- senario based question Flip-Key-Logical
+- deep dive in the concept of Data patterns and MultiThreading with mentors
+- continuing the use of more use cases in  teh same codebase of addressbook
+- Stream concepts
+- addeing more methods accoring to the nedd
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **Collections C#  senario based problems* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in data design and pattern
 - real life question and how to approch them
 - more proficient in csharp fucntionality
 - hands on practice in csharp
