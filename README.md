@@ -966,7 +966,7 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 
 --
 
-##  🗓️ Day-35 | C# senario based questions and CSV Data Handing
+##  🗓️ Day-35 | C# senario based questions
 
 **Date:** 30 jan 2026  
 
@@ -995,7 +995,7 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 
 --
 
-##  🗓️ Day-36 | C# senario based questions and CSV Data Handing
+##  🗓️ Day-36 | C# senario based questions
 
 **Date:** 2 feb 2026  
 
@@ -1009,6 +1009,263 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 
 ### 🔹 Code Practice & Pushing in Github
 - Pushed **Collections C#  senario based problems* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in data design and pattern
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--
+
+##  🗓️ Day-37 | C# senario based questions
+
+**Date:** 3 feb 2026  
+
+### 🔹 Topics Covered
+- senario based question Factory Robot Hazard Analyzer
+- deep dive in the concept of Data principles
+- continuing the use of more use cases in the same codebase of addressbook
+- Stream concepts
+- addeing more methods accoring to the nedd
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **Collections C#  senario based problems* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in data design and pattern
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--
+
+##  🗓️ Day-38 | C# senario based questions
+
+**Date:** 4 feb 2026  
+
+### 🔹 Topics Covered
+- deep dive in the concept of multithreading and RDBMS 
+- continuing the use of more practice for RDBMS
+- Stream concepts
+- addeing more methods accoring to the nedd
+- using debuggers to solve the bugs
+
+## 🎯 Learning Outcome
+- Gained experience in data design and pattern
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--
+
+##  🗓️ Day-39 | C# senario based questions
+
+**Date:** 5 feb 2026  
+
+### 🔹 Topics Covered
+- senario based question Health Clinic DB Project
+- deep dive in the concept of MSSQL concepts
+- continuing the use of more use cases in the same codebase of HeathClinic project
+- Stream concepts
+- addeing more methods accoring to the nedd
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **Sql-dbms C#  senario based problems* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in data design and pattern
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--
+
+
+##  🗓️ Day-40 | C# senario based questions
+
+**Date:** 6 feb 2026  
+
+### 🔹 Topics Covered
+- senario based question TechVille  Project
+- deep dive in the concept of Power Skill in a Google Meating
+- continuing the use of more use cases in the same codebase of HeathClinic project
+- Stream concepts
+- addeing more methods accoring to the nedd
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **Sql-dbms C#  senario based problems* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in data design and pattern
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--
+
+##  🗓️ Day-41 | Mock test practice 
+
+**Date:** 7 feb 2026  
+
+### 🔹 Topics Covered
+- deep dive in the concept of all the previous topics
+- continuing the use of more use cases in the same codebase of HeathClinic project
+- Stream concepts
+- addeing more methods accoring to the nedd
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **Sql-dbms C#  senario based problems* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in data design and pattern
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--
+
+##  🗓️ Day-42 | Mock test practice
+
+**Date:** 9 feb 2026  
+
+### 🔹 Topics Covered
+- deep dive in the concept of all the previous topics
+- continuing the use of more use cases in the same codebase of HeathClinic project
+- Stream concepts
+- addeing more methods accoring to the nedd
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **Sql-dbms C#  senario based problems* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in data design and pattern
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--
+
+##  🗓️ Day-43 | Mock test 
+
+**Date:** 10 feb 2026  
+
+### 🔹 Test 
+- 2 question  from 10:30 to 1:00
+- 1 question from 3:00 to 5:00
+
+--
+
+##  🗓️ Day-44 | Senario based question 
+
+**Date:** 11 feb 2026  
+
+### 🔹 Topics Covered
+- deep dive in the concept of all the previous topics
+- continuing the use of more use cases in the same codebase of HeathClinic project
+- Stream concepts
+- addeing more methods accoring to the nedd
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **Sql-dbms C#  senario based problems* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in data design and pattern
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--
+
+##  🗓️ Day-45 | Senario based question 
+
+**Date:** 12 feb 2026  
+
+### 🔹 Topics Covered
+- senario based question - NotifyHub
+- deep dive in the concept of all the previous topics
+- continuing the use of more use cases in the same codebase of HeathClinic project
+- Stream concepts
+- addeing more methods accoring to the nedd
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **collection C#  senario based problems* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in data design and pattern
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--
+
+##  🗓️ Day-46 | Senario based question 
+
+**Date:** 13 feb 2026  
+
+### 🔹 Topics Covered
+- senario based question - Email Validator College Admission Portal
+- Power Skill Meating on google meat
+- deep dive in the concept of all the previous topics
+- continuing the use of more use cases in the same codebase of HeathClinic project
+- Stream concepts
+- addeing more methods accoring to the nedd
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **collection C#  senario based problems* to GitHub repository
 
 ## 🎯 Learning Outcome
 - Gained experience in data design and pattern
