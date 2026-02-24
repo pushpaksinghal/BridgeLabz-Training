@@ -1277,3 +1277,184 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 - Continue practicing C# programming concepts
 - Explore concepts in C#
 - Learn more about .NET libraries and real-world projects
+
+--
+
+##  🗓️ Day-47 | Senario based question 
+
+**Date:** 16 feb 2026  
+
+### 🔹 Topics Covered
+- senario based question - Bank Transaction Processing System
+- deep dive in the concept of all the previous topics
+- continuing the use of more use cases in the same codebase of HeathClinic project
+- multithreading concepts in senario based question
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **sql dbms  C#  senario based problems* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in data design and pattern
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--
+
+##  🗓️ Day-48 | ASP.Net and Healt Clinic 
+
+**Date:** 17 feb 2026  
+
+### 🔹 Topics Covered
+- New topic - ASP.Net introduction
+- Introduced to the rule regarding the mock next day
+- deep dive in the concept of all the previous topics
+- continuing the use of more use cases in the same codebase of HeathClinic project
+- multithreading concepts in senario based question
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **sql dbms  C#  senario based problems* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in data design and pattern
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--
+
+##  🗓️ Day-49 | Mock Test 
+
+**Date:** 18 feb 2026  
+
+###  Mock Exam
+- Mock test
+- 2 question
+- 2 hours
+
+###  Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--
+
+## 🗓️ Day-50 | Senario based question and ASP.Net CRUD
+
+**Date:** 19 feb 2026  
+
+### 🔹 Topics Covered
+- New topic - ASP.Net introduction
+- New Project - Quantity Menagement App(UC-1 , UC-2, UC-3, UC-4)
+- deep dive in the concept of all the previous topics
+- Conpleted the  HeathClinic project
+- all concepts in senario based question
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **Quantity Management App* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in data design and pattern
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--
+
+## 🗓️ Day-51 | Senario based question and ASP.Net CRUD
+
+**Date:** 20 feb 2026  
+
+### 🔹 Topics Covered
+- New topic - ASP.Net introduction
+- New Project - Quantity Menagement App(UC-5 to UC-10)
+- deep dive in the concept of all the previous topics
+- all concepts in senario based question
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **Quantity Management App* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in data design and pattern
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--
+
+## 🗓️ Day-52 | Senario based question and ASP.Net CRUD
+
+**Date:** 21 feb 2026  
+
+### 🔹 Topics Covered
+- New topic - ASP.Net introduction
+- New Project - Quantity Menagement App(UC-11 to UC-13)
+- deep dive in the concept of all the previous topics
+- all concepts in senario based question
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **Quantity Management App* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in data design and pattern
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
+--
+
+## 🗓️ Day-53 | Senario based question and ASP.Net CRUD
+
+**Date:** 23 feb 2026  
+
+### 🔹 Topics Covered
+- New topic - ASP.Net introduction
+- completeed the basic part of Quantity management App , will move to Adding ASP.Net in coming weeks
+- deep dive in the concept of all the previous topics
+- all concepts in senario based question
+- using debuggers to solve the bugs
+
+### 🔹 Code Practice & Pushing in Github
+- Pushed **Quantity Management App* to GitHub repository
+
+## 🎯 Learning Outcome
+- Gained experience in data design and pattern
+- real life question and how to approch them
+- more proficient in csharp fucntionality
+- hands on practice in csharp
+
+## 🚀 Next Steps
+- Continue practicing C# programming concepts
+- Explore concepts in C#
+- Learn more about .NET libraries and real-world projects
+
