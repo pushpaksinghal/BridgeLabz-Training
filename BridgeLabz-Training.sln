@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql-database-practice", "sql-database-practice", "{49D7C62D-27E0-0624-065E-82E9245C6249}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gcr-codebase", "gcr-codebase", "{2D97781A-86B2-C639-0AAD-E9E7C994EC8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AddressBook", "AddressBook", "{74C1CB59-F88A-2074-9AE6-3E039F78A469}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AddressBook.Test", "AddressBook.Test", "{D396DEB7-F61B-D412-E9F8-3736630E5250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeLabzTraining.Tests", "sql-database-practice\gcr-codebase\AddressBook\AddressBook.Test\BridgeLabzTraining.Tests.csproj", "{2F0B8031-ACB8-E989-64E6-CD243DCE8BEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F0B8031-ACB8-E989-64E6-CD243DCE8BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F0B8031-ACB8-E989-64E6-CD243DCE8BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F0B8031-ACB8-E989-64E6-CD243DCE8BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F0B8031-ACB8-E989-64E6-CD243DCE8BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D97781A-86B2-C639-0AAD-E9E7C994EC8B} = {49D7C62D-27E0-0624-065E-82E9245C6249}
+		{74C1CB59-F88A-2074-9AE6-3E039F78A469} = {2D97781A-86B2-C639-0AAD-E9E7C994EC8B}
+		{D396DEB7-F61B-D412-E9F8-3736630E5250} = {74C1CB59-F88A-2074-9AE6-3E039F78A469}
+		{2F0B8031-ACB8-E989-64E6-CD243DCE8BEE} = {D396DEB7-F61B-D412-E9F8-3736630E5250}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D44FAE8F-FFA4-49CF-ACB0-DBAF3A101A60}
+	EndGlobalSection
+EndGlobal
