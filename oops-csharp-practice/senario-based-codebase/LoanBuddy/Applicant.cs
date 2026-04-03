@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BridgelabzTraining.senario_based.LoanBuddy
+{
+    internal class Applicant
+    {
+        private string name;
+        private int creditScore;
+        private int income;
+        private int loanAmount;
+
+        public Applicant(string name, int creditScore, int income, int loanAmount)
+        {
+            this.name = name;
+            this.creditScore = creditScore;
+            this.income = income;
+            this.loanAmount = loanAmount;
+        }
+        public string GetName() {  return name; }
+        public int GetCreditScore() {  return creditScore; } 
+        public int GetIncome() {  return income; } 
+        public int GetLoanAmount() {  return loanAmount; }
+    }
+}
