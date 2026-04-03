@@ -1,3 +1,4 @@
+Training on core Chsarp concepts
 
 # 📘BridgeLabz Training Log
 
